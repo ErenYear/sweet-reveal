@@ -31,7 +31,7 @@ export default function Home() {
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
         className="fixed bottom-4 right-4 text-sm text-pink-300/70 font-semibold italic pointer-events-none z-50">
-        Made with ❤️ for Yami
+        For My Wifey 💍 Yami ❤️
       </motion.div>
     </div>
   )
