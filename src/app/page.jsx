@@ -25,16 +25,13 @@ export default function Home() {
 
       <Music shouldPlay={musicStarted} />
 
-      {/* Watermark */}
+      {/* Custom Watermark for Yami */}
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        transition={{
-          duration: 1,
-          delay: 1,
-        }}
-        className="fixed bottom-4 right-4 text-sm text-white/40 pointer-events-none z-50">
-        @anujbuilds
+        transition={{ duration: 1, delay: 1 }}
+        className="fixed bottom-4 right-4 text-sm text-pink-300/70 font-semibold italic pointer-events-none z-50">
+        Made with ❤️ for Yami
       </motion.div>
     </div>
   )
